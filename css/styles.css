@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-image: url('/images/bg-desktop.svg');
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+img{
+    display: block;
+}
+
+#mockup{
+    display: inline-block;
+    padding-top: 70px
+}
+
+#mockup-description{
+    width: 35%;
+    float: right;
+    margin: 0px;
+    margin-top: 70px;
+    margin-right:170px;
+    line-height: 2;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+#btn-rg{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    border-radius: 25px;
+    margin-top: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+a, a:hover, a:visited, a:active, a:focus{
+    text-decoration: none;
+}
+
+#btn-rg:hover{
+    background-color:hsl(300, 69%, 71%);
+    color: white;
+}
+
+.icons{
+    margin: 0px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.ico{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.filter-white{
+    filter: invert(99%) sepia(2%) saturate(2%) hue-rotate(131deg) brightness(111%) contrast(100%);
+}
+
+.ico:hover{
+    filter: invert(82%) sepia(23%) saturate(2709%) hue-rotate(243deg) brightness(93%) contrast(95%);
+}
